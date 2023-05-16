@@ -12,8 +12,8 @@ An improvement to this solution regarding the communication complexity is known 
 Our proposed algorithm achieves Byzantine vector consensus with communication complexity of $O(n^2 \sqrt{n})$ and latency of $O(n \sqrt{n})$
 
 ## Summary
-
+Our 
 
 ## About
-
+This work was done in collaboration with the Distributing Computing Laboratory lab of EPFL, during the Research Project of Computer Science Master program, during the winter semester of 2023. 
 
