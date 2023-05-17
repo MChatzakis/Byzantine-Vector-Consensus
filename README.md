@@ -11,8 +11,10 @@ An improvement to this solution regarding the communication complexity is known 
 
 Our proposed algorithm achieves Byzantine vector consensus with communication complexity of $O(n^2 \sqrt{n})$ and latency of $O(n \sqrt{n})$
 
+Our environment is partially synchronous: The message delays are unbounded, till a global stabilization time. 
+
 ## Summary
-Our 
+We propose a Byzantine Vector Consensus protocol, which exploits a Leader-Based vector dissemination module which is responsible for disseminating a vector of $n-f$ values to the system. It achieves that by working in views and epochs. In each view a leader process tries to disseminate a vector, and every epoch has a specific number of views. For more details refer to the report of this work. 
 
 ## About
 This work was done in collaboration with the Distributing Computing Laboratory lab of EPFL, during the Research Project of Computer Science Master program, during the winter semester of 2023. 
