@@ -1,7 +1,7 @@
 # Leader-Based Byzantine Vector Consensus
 Theoretical analysis and algorithm development for Byzantine Vector Consensus in partially synchronous environments.
 
-This repository contains the paper and presentation of the work "On the complexity of Byzantine Vector Consensus", by Manos Chatzakis (emmanouil.chatzakis@epfl.ch), Jovan Komatovic and Rachid Guerraoui, at DCL Lab of EPFL. It also contains some preliminary papers essential to understand the contribution of this work. 
+This repository contains the paper and presentation of the work "Improving the communication complexity and latency of Byzantine Vector Consensus", by Manos Chatzakis (emmanouil.chatzakis@epfl.ch), Jovan Komatovic and Rachid Guerraoui, at DCL Lab of EPFL.
 
 ## Context
 In Byzantine vector consensus, every process proposes a value and eventually all correct processes decide a vector of $n-f$ values, where $n$ is the processes of the system and $f$ is the number of processes that are Byzantine, and thus they may operate in an adversary or arbitrary way. 
@@ -14,7 +14,8 @@ Our proposed algorithm achieves Byzantine vector consensus with communication co
 Our environment is partially synchronous: The message delays are unbounded, till a global stabilization time. 
 
 ## Summary
-We propose a Byzantine Vector Consensus protocol, which exploits a Leader-Based vector dissemination module which is responsible for disseminating a vector of $n-f$ values to the system. It achieves that by working in views and epochs. In each view a leader process tries to disseminate a vector, and every epoch has a specific number of views. For more details refer to the report of this work. 
+We propose a Byzantine Vector Consensus protocol, which exploits a leader-based vector dissemination module which is responsible for disseminating a vector of $n-f$ values to the system. It achieves that by organizing in views and epochs. 
+In each view a leader process tries to disseminate a vector, and every epoch has a specific number of views. For more details refer to the report of this work. 
 
 ## About
 This work was done in collaboration with the Distributing Computing Laboratory lab of EPFL, during the Research Project of Computer Science Master program, during the winter semester of 2023. 
