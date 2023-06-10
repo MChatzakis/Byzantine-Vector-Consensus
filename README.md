@@ -18,5 +18,5 @@ We propose a Byzantine Vector Consensus protocol, which exploits a leader-based 
 In each view a leader process tries to disseminate a vector, and every epoch has a specific number of views. For more details refer to the report of this work. 
 
 ## About
-This work was done in collaboration with the Distributing Computing Laboratory lab of EPFL, during the Research Project of Computer Science Master program, during the winter semester of 2023. 
+This work was done in collaboration with the Distributing Computing Laboratory lab of EPFL, during the Research Project of Computer Science Master program, during the spring semester of 2023. 
 
