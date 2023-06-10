@@ -1,7 +1,7 @@
 # Leader-Based Byzantine Vector Consensus
 Theoretical analysis and algorithm development for Byzantine Vector Consensus in partially synchronous environments.
 
-This repository contains the paper and presentation of the work "Improving the communication complexity and latency of Byzantine Vector Consensus", by Manos Chatzakis (emmanouil.chatzakis@epfl.ch), Jovan Komatovic and Rachid Guerraoui, at DCL Lab of EPFL.
+This repository contains the paper and presentation of the work "Improving the complexity of Byzantine Vector Consensus", by Manos Chatzakis (emmanouil.chatzakis@epfl.ch), Jovan Komatovic and Rachid Guerraoui, at DCL Lab of EPFL.
 
 ## Context
 In Byzantine vector consensus, every process proposes a value and eventually all correct processes decide a vector of $n-f$ values, where $n$ is the processes of the system and $f$ is the number of processes that are Byzantine, and thus they may operate in an adversary or arbitrary way. 
